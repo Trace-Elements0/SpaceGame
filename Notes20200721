@@ -1,0 +1,44 @@
+using System;
+//PlatformIO IDE Terminal
+class Circle()
+{
+  private int radius;
+  public Circle()   // default constructor
+  {
+    radius = 0;
+    NumCircles++;
+  }
+  public Circle(int initialRadius)   //overloaded constructor
+  {
+    radius = initialRadius;
+    NumCircles++;
+  }
+
+  static void ByRef(ref int i, out int j)
+  {
+    i =+ 3;
+  }
+  static void ByVal()
+  {
+    i+= 3;
+  }
+  static void Main(string[] args)
+  {
+
+    try
+    {
+      int m = 0;
+      int 0 = 7;
+      ByRef();
+      ByRef(o);
+      Console.WriteLine(o);
+
+      ByVal(o);
+      Console.WriteLine(o);
+    }
+  }
+  int ExBMethod(int x) => x+=x;
+  int multiply(int x)
+  {if (x <= 0) return 0; return x * x;}
+
+}
