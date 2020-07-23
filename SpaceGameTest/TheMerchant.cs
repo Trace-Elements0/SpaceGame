@@ -55,46 +55,4 @@ namespace ClassLibrary
             throw new System.NotImplementedException();
         }
     }
-
-    public class CopyOfTheMerchant
-    {
-        public CopyOfTheMerchant()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public double Loot
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public string MerchantBag
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        /// <summary>
-        /// The Merchants action of space travel
-        /// </summary>
-        private void Travel()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public string Win()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public string Lose()
-        {
-            throw new System.NotImplementedException();
-        }
-    }
 }
