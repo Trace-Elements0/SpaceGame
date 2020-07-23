@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jorge\\repos\\SpaceGameTest\\SpaceGameTest.csproj": {}
+    "C:\\Users\\jorge\\repos\\SpaceGame\\SpaceGameTest\\SpaceGameTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jorge\\Desktop\\MSSA DOCS\\01 C#\\ClassLibrary\\ClassLibrary.csproj": {
+    "C:\\Users\\jorge\\repos\\SpaceGame\\NewClassLibrary\\NewClassLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jorge\\Desktop\\MSSA DOCS\\01 C#\\ClassLibrary\\ClassLibrary.csproj",
-        "projectName": "ClassLibrary",
-        "projectPath": "C:\\Users\\jorge\\Desktop\\MSSA DOCS\\01 C#\\ClassLibrary\\ClassLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\jorge\\repos\\SpaceGame\\NewClassLibrary\\NewClassLibrary.csproj",
+        "projectName": "NewClassLibrary",
+        "projectPath": "C:\\Users\\jorge\\repos\\SpaceGame\\NewClassLibrary\\NewClassLibrary.csproj",
         "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jorge\\Desktop\\MSSA DOCS\\01 C#\\ClassLibrary\\obj\\",
+        "outputPath": "C:\\Users\\jorge\\repos\\SpaceGame\\NewClassLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -60,14 +60,14 @@
         }
       }
     },
-    "C:\\Users\\jorge\\repos\\SpaceGameTest\\SpaceGameTest.csproj": {
+    "C:\\Users\\jorge\\repos\\SpaceGame\\SpaceGameTest\\SpaceGameTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jorge\\repos\\SpaceGameTest\\SpaceGameTest.csproj",
+        "projectUniqueName": "C:\\Users\\jorge\\repos\\SpaceGame\\SpaceGameTest\\SpaceGameTest.csproj",
         "projectName": "SpaceGameTest",
-        "projectPath": "C:\\Users\\jorge\\repos\\SpaceGameTest\\SpaceGameTest.csproj",
+        "projectPath": "C:\\Users\\jorge\\repos\\SpaceGame\\SpaceGameTest\\SpaceGameTest.csproj",
         "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jorge\\repos\\SpaceGameTest\\obj\\",
+        "outputPath": "C:\\Users\\jorge\\repos\\SpaceGame\\SpaceGameTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -87,8 +87,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\jorge\\Desktop\\MSSA DOCS\\01 C#\\ClassLibrary\\ClassLibrary.csproj": {
-                "projectPath": "C:\\Users\\jorge\\Desktop\\MSSA DOCS\\01 C#\\ClassLibrary\\ClassLibrary.csproj"
+              "C:\\Users\\jorge\\repos\\SpaceGame\\NewClassLibrary\\NewClassLibrary.csproj": {
+                "projectPath": "C:\\Users\\jorge\\repos\\SpaceGame\\NewClassLibrary\\NewClassLibrary.csproj"
               }
             }
           }

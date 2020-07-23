@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jorge\\Desktop\\MSSA DOCS\\01 C#\\ClassLibrary\\ClassLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\jorge\\repos\\SpaceGame\\ClassLibrary\\ClassLibrary.csproj",
       "projectName": "ClassLibrary",
-      "projectPath": "C:\\Users\\jorge\\Desktop\\MSSA DOCS\\01 C#\\ClassLibrary\\ClassLibrary.csproj",
+      "projectPath": "C:\\Users\\jorge\\repos\\SpaceGame\\ClassLibrary\\ClassLibrary.csproj",
       "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jorge\\Desktop\\MSSA DOCS\\01 C#\\ClassLibrary\\obj\\",
+      "outputPath": "C:\\Users\\jorge\\repos\\SpaceGame\\ClassLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

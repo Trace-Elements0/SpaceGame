@@ -2,3 +2,7 @@ C:\Users\jorge\repos\SpaceGameTest\obj\Debug\netcoreapp3.1\SpaceGameTest.csprojA
 C:\Users\jorge\repos\SpaceGameTest\obj\Debug\netcoreapp3.1\SpaceGameTest.AssemblyInfoInputs.cache
 C:\Users\jorge\repos\SpaceGameTest\obj\Debug\netcoreapp3.1\SpaceGameTest.AssemblyInfo.cs
 C:\Users\jorge\repos\SpaceGameTest\obj\Debug\netcoreapp3.1\SpaceGameTest.csproj.CoreCompileInputs.cache
+C:\Users\jorge\repos\SpaceGame\SpaceGameTest\obj\Debug\netcoreapp3.1\SpaceGameTest.csprojAssemblyReference.cache
+C:\Users\jorge\repos\SpaceGame\SpaceGameTest\obj\Debug\netcoreapp3.1\SpaceGameTest.AssemblyInfoInputs.cache
+C:\Users\jorge\repos\SpaceGame\SpaceGameTest\obj\Debug\netcoreapp3.1\SpaceGameTest.AssemblyInfo.cs
+C:\Users\jorge\repos\SpaceGame\SpaceGameTest\obj\Debug\netcoreapp3.1\SpaceGameTest.csproj.CoreCompileInputs.cache
