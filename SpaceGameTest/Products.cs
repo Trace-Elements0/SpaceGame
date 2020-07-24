@@ -7,14 +7,7 @@ namespace ClassLibrary
 {
     public class Products
     {
-        public int Hostility
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
+        
         public int Price
         {
             get => default;

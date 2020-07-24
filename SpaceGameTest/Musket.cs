@@ -7,5 +7,13 @@ namespace ClassLibrary
 {
     public class Musket : Weapons
     {
+        public void ShotHit()
+        {
+        //TODO
+        }
+        public void ShotMiss()
+        {
+        //TODO
+        }
     }
 }

@@ -7,49 +7,17 @@ namespace ClassLibrary
 {
     public class Characters
     {
-        private int MerchantsHealth;
+        public string Name;
+        public char Gender;
+        public int Age;
+        public int health;
 
         public Characters()
         {
-            throw new System.NotImplementedException();
+            
         }
 
-        public char Gender
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public int Age
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public int Name
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public int Health
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public void Attack()
-        {
-            throw new System.NotImplementedException();
-        }
+       
 
         public void Defend()
         {

@@ -6,7 +6,7 @@ using System.Text;
 namespace ClassLibrary
 {
     public class Alien : Characters
-    {
+    {   
         public Alien()
         {
             throw new System.NotImplementedException();
@@ -20,9 +20,6 @@ namespace ClassLibrary
             }
         }
 
-        public void KillMerchant()
-        {
-            throw new System.NotImplementedException();
-        }
+    
     }
 }

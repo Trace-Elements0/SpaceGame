@@ -1,5 +1,6 @@
 ﻿using ClassLibrary;
 using System;
+using System.Dynamic;
 using static ClassLibrary.Enumerations;
 
 namespace SpaceGameTest
@@ -10,23 +11,16 @@ namespace SpaceGameTest
         {
             TheMerchant player = new TheMerchant();
             Weapons musket = new Weapons();
+            StoryLine Story = new StoryLine();
             musket.WeaponType = WeaponTypes.Musket;
             player.Weapons.Add(musket);
 
             string a = null;
             string Gender = null;
             string name;
-            Console.WriteLine("In the galaxy called Milky Way, there has been a war going since before I was born.The Space Force started the war,");
-            Console.WriteLine("spreading order and peace However, a Rebellion was formed to counter Space Force.");
-            Console.WriteLine("For years, lives have been lost and put to misery.. All thanks to the Rebellion,");
-            Console.WriteLine("that is why I want to join the Space Force, to help establish peace.Right now,");
-            Console.WriteLine("I am on my way to Space Force Headquarters to start my training as a recruit");
-            Console.WriteLine("This is where my journey begins…….. Press enter to continue");
-            Console.ReadLine();
-
-            Console.WriteLine("Enter you Gender : ");
-            Console.WriteLine("\t - male");
-            Console.WriteLine("\t - female");
+            //Took the ling pieces of write line and made a story class and we'll be able to call the 
+            //parts of the story as methods as we go through. This first one below is called Prologue.
+            Story.Prologue();
             Gender = Console.ReadLine();
 
 
@@ -40,7 +34,9 @@ namespace SpaceGameTest
                 Console.WriteLine("Ay ay Mam!, lets get to it! press enter to continue...");
                 Console.ReadLine();
             }
-
+            //Didn't take it out but if we do remove the option to enter a custom name we save ourselves the 
+            //need to keep reiterating a placeholder for the name. Last game I played was Halo 3. An you don't
+            //get the option to change Master Chiefs name? Let's talk throuigh it.
             Console.WriteLine(" <0__0>.. Welcome to the Space Force Recruit.. type in your name now.. ");
             name = Console.ReadLine();
 
@@ -52,7 +48,7 @@ namespace SpaceGameTest
 
 
             Console.WriteLine("\ta - Sword");
-            Console.WriteLine("\tb - Ray Gun");
+            Console.WriteLine("\tb - musket");
             Console.WriteLine("\tc - 5 Grenades");
             Console.WriteLine("\td - Sniper Rifle");
             a = Console.ReadLine();
@@ -60,13 +56,13 @@ namespace SpaceGameTest
 
             if (a == "a")
             {
-                Console.WriteLine("Sword.. a true warrios weapon Great choice! lets see if you can handle it");
+                Console.WriteLine("Sword.. a true warrior weapon Great choice! lets see if you can handle it");
                 Console.ReadLine();
             }
 
             else if (a == "b")
             {
-                Console.WriteLine("Ray gun.. I hope you know how to use it");
+                Console.WriteLine("musket.. I hope you know how to use it");
                 Console.ReadLine();
             }
             else if (a == "c")
@@ -91,7 +87,7 @@ namespace SpaceGameTest
 
 
 
-            
+
         }
     }
 }
