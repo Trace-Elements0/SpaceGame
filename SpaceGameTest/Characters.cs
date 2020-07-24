@@ -7,9 +7,6 @@ namespace ClassLibrary
 {
     public class Characters
     {
-        public string Name;
-        public char Gender;
-        public int Age;
         public int health;
 
         public Characters()

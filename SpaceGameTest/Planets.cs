@@ -6,26 +6,31 @@ using System.Text;
 namespace ClassLibrary
 {
     public class Planets
-    {      //Names of planets can change I just wante to get the ball rolling on most of these classes
-        public class Saturn
+    {      
+        public class Mars
         {
+            public int ore;
             //TODO
         }
-        public class Uranus
+        public class Pluto
         {
-
+            public int ore;
+            //TODO
         }
         public class Jupiter
         {
-
+            public int ore;
+            //TODO
         }
-        public class Mars
+        public class Saturn
         {
-
+            public int ore;
+            //TODO
         }
         public class Venus
         {
-
+            public int ore;
+            //TODO
         }
     }
 }
