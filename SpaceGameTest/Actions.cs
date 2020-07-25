@@ -9,41 +9,45 @@ namespace ClassLibrary
     {
         public void Attack()
         {
-        //TODO:
+        //TODO
         }
-        //public void AttackAlien(Characters TheMerchant, Characters Alien)
-        //{
-        //    Console.WriteLine("The Merchant lands a heavy hit on the alien.");
-        //    Alien.health -= TheMerchant.Attack;
-        //    while (Alien.health != 0)
-        //        Console.WriteLine("The Alien lives to fight another day");
-        //    else
-        //        Alien.Die();
-        //}
-        //public void AttackMerchent()
-        //{
-        //    //TODO
-        //}
-        //public Buy()
-        //{
-        //    //TODO
-        //}
-        //public Defend()
-        //{
+        public void AttackAlien(/*Characters TheMerchant, Characters Alien*/)
+        {
+            //Console.WriteLine("The Merchant lands a heavy hit on the alien.");
+            //Alien.health -= TheMerchant.Attack;
+            //while (Alien.health != 0)
+            //    Console.WriteLine("The Alien lives to fight another day");
+            //else
+            //    Alien.Die();
+        }
+        public void AttackMerchent()
+        {
+            //TODO
+        }
+        public void Buy()
+        {
+            //TODO
+        }
+        public void Defend()
+        {
 
-        //}
-        //public Die()
-        //{
-        //    //TODO:
-        //}
-        //public Sell()
-        //{
-        //    //TODO
-        //}
-        //public Restart()
-        //{
+        }
+        public void Die()
+        {
+            //TODO:
+        }
+        public void Sell()
+        {
+            //TODO
+        }
+        public void Restart()
+        {
 
-        //}
+        }
+        public void MerchantCelebration()
+        {
+
+        }
 
 
 

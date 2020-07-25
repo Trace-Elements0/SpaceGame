@@ -1,1 +1,55 @@
 LAB4C_SpaceGame_1stDraft
+Algorithm
+Creating object for main character, Weapons, storyline, adding musket object
+Create three string variables a, gender, and name. 
+Call the first storyline's method "Prologue"
+Present player with weapons options
+Read in players choice from readline
+cascading if else statement if a write sword
+if b write musket
+if c write grenades
+if d write sniper
+Write ""Greetings"
+Get on USS Space Force
+                             *
+                             **
+                             *** 
+                             ****  
+                             *****   
+                             ******    
+                             *******
+                             *********
+                             **********
+                             ***********
+                             ************
+                             *
+                             *   
+          *     ***************************
+          * *    *USS Space Force*********                       
+          * * *   **********************                     
+          * *      *******************                   
+          *         *****************                 
+                     **************
+Call story Line(chapteronepartone)
+Travel to Mars
+Merchant attack shoot Ogre, 
+Ogre Attack
+Defend from ogre attack
+Merchant attack head shot 
+ogre dies
+call merchant celebration
+Show stats
+Retrieve Ore. Increment Ore
+Travel Back to Ship
+Story Line chapter one part two
+Status report method.
+storyline chapter two 
+Reassign health variable to MAX
+Create alien object "Giant Guardian"
+Giant say welcome to Saturn
+Call action methods for second fight
+Giant Guardian Attack
+The merchant defend, attack, Attack
+Item increase by Gauntlet
+Giant dies
+call merchant celebration
