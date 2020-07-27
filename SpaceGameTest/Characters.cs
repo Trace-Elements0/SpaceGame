@@ -7,14 +7,13 @@ namespace ClassLibrary
 {
     public class Characters
     {
-        public int health;
-
-        public Characters()
-        {
-            
-        }
-
-       
+        public int Health;
+        public string? Name;
+        public int DefenseLvl;
+        public int AttackLvl;
+        public float Loot;
+        public string[] Products;
+  
 
         public void Defend()
         {

@@ -9,35 +9,35 @@ namespace ClassLibrary
 {
     public class TheMerchant : Characters
     {
-        public TheMerchant()
-        {
-            this.MerchantBag = new List<Products>();
-            this.Weapons = new List<Weapons>();
-        }
+        //public TheMerchant()
+        //{
+        //    this.MerchantBag = new List<Products>();
+        //    this.Weapons = new List<Weapons>();
+        //}
 
-        public int Loot
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        //public int Loot
+        //{
+        //    get => default;
+        //    set
+        //    {
+        //    }
+        //}
 
-        public List<Products> MerchantBag
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        //public List<Products> MerchantBag
+        //{
+        //    get => default;
+        //    set
+        //    {
+        //    }
+        //}
 
-        public List<Weapons> Weapons
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        //public List<Weapons> Weapons
+        //{
+        //    get => default;
+        //    set
+        //    {
+        //    }
+        //}
 
         /// <summary>
         /// The Merchants action of space travel

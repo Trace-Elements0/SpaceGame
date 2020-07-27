@@ -9,6 +9,7 @@ namespace ClassLibrary
     public class Weapons
     {
         public WeaponTypes WeaponType { get; set; }
+        
         public int HitPoints
         {
             get => default;

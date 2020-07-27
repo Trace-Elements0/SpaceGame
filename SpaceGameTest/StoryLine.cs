@@ -20,9 +20,7 @@ namespace SpaceGameTest
                 "that is why I want to join the Space Force, to help establish peace.Right now,\n" +
                 "I am on my way to Space Force Headquarters to start my training as a recruit\n" +
                 "This is where my journey begins…….. Press enter to continue");
-            Console.WriteLine("Enter you Gender : ");
-            Console.WriteLine("\t - male");
-            Console.WriteLine("\t - female");
+
         }
         public void ChapterOnePartOne()
         {
