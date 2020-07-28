@@ -15,7 +15,6 @@ namespace ClassLibrary
             this.Planets = new List<Planet>();
         }
         public int Health { get; set; }
-        public string Name { get; set; }
         public int DefenseLvl { get; set; }       
         public float Loot { get; set; }
         public List<Product> Products { get; set; }

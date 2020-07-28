@@ -17,16 +17,14 @@ namespace SpaceGameTest
             var theMerchant = new TheMerchant
             {
                 Health = 10,
-                Name = "Cadet",
                 DefenseLvl = 10,
                 Loot = 0,
-                Products = Fuel,
-                PlanetTypes = Earth,
+
+
 
             };
 
-            theMerchant.Weapons.Add(musket);
-            musket.WeaponType = WeaponTypes.Musket;
+            
             
         }
     }
