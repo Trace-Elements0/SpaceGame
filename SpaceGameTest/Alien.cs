@@ -5,15 +5,15 @@ using System.Text;
 
 namespace ClassLibrary
 {
-    public class Alien : Characters
+    public class Alien
     {   
         public Alien()
         {
            
         }
-    }
-    public class MarsAlien : Alien
-    {
-        public MarsAlien()
+        public int Health { get; set; }
+        public int Name { get; set; }
+        public int Health { get; set; }
+        public int Health { get; set; }
     }
 }

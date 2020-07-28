@@ -13,14 +13,16 @@ namespace SpaceGameTest
         static void Main(string[] args)
         {            
             StoryLine Story = new StoryLine();
-            Weapons musket = new Weapons();
+            Weapon musket = new Weapon();
             var theMerchant = new TheMerchant
             {
-                Health = 100,
-                DefenseLvl = 100,
-                AttackLvl = 60,
+                Health = 10,
+                Name = "Cadet",
+                DefenseLvl = 10,
                 Loot = 0,
-                WeaponTypes = Sword,
+                Products = Fuel,
+                PlanetTypes = Earth,
+
             };
 
             theMerchant.Weapons.Add(musket);

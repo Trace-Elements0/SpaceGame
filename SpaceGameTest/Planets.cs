@@ -6,7 +6,38 @@ using System.Text;
 namespace ClassLibrary
 {
     public class Planets
-    {      
-       string[] planets = { "Mars", "Jupiter", "Saturn", "Venus" }
+    {
+        public PlanetTypes PlanetType { get; set; }
+        public int Range { get; set; }
+        public int Rank { get; set; }
+        public int HitPoints { get; set; }
+
+        public Planet(PlanetTypes types)
+        {
+            this.PlanetType = types;
+            AssignPlanet(types);
+        }
+
+        private void AssignPlanet(PlanetTypes types)
+        {
+            switch (types)
+            {
+                //case PlanetTypes.Musket:
+                //    this.HitPoints = 4;
+                //    this.Range = 6;
+                //    this.Rank = 2;
+                //    break;
+
+                //case PlanetTypes.Sword:
+                //    this.HitPoints = 6;
+                //    this.Range = 2;
+                //    this.Rank = 3;
+                //    break;
+            }
+        }
+
+    }
+}
+
     }
 }

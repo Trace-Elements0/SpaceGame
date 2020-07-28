@@ -2,10 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using static ClassLibrary.Enumerations;
 
 namespace ClassLibrary
 {
-    public enum Products : short { Ore, Kit, Fuel, Food, Aluminum }
+
+    public class Product
+    {
+        public int Price { get; set; }
+        public ProductTypes ProductType { get; set; }
+    }
 
     //public int Price
     //{

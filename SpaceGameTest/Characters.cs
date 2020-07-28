@@ -8,27 +8,18 @@ namespace ClassLibrary
 {
     public class Characters
     {
-        public int Health;
-        public string? Name;
-        public int DefenseLvl;
-        public int AttackLvl;
-        public float Loot;
-        public string[] Products;
-        public Enumerations Weapons;
-
-        public void Defend()
+        public Characters()
         {
-            throw new System.NotImplementedException();
+            this.Products = new List<Product>();
+            this.Weapons = new List<Weapon>();
+            this.Planets = new List<Planet>();
         }
-
-        public void Sell()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void Buy()
-        {
-            throw new System.NotImplementedException();
-        }
+        public int Health { get; set; }
+        public string Name { get; set; }
+        public int DefenseLvl { get; set; }       
+        public float Loot { get; set; }
+        public List<Product> Products { get; set; }
+        public List<Weapon> Weapons { get; set; }
+        public List<Planet> Planets { get; set; }
     }
 }
