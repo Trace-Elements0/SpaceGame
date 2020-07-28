@@ -9,17 +9,11 @@ namespace ClassLibrary
     {   
         public Alien()
         {
-            throw new System.NotImplementedException();
+           
         }
-
-        public int AlienCurrency
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-    
+    }
+    public class MarsAlien : Alien
+    {
+        public MarsAlien()
     }
 }

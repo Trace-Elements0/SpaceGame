@@ -11,8 +11,9 @@ namespace ClassLibrary
         public enum WeaponTypes
         {
             Musket,
-            Sword
-
+            Sword, 
+            Blunderbuss,
+            Dukes
         }
     }
 }

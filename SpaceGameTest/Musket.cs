@@ -7,9 +7,9 @@ namespace ClassLibrary
 {
     public class Musket : Weapons
     {
-        public void ShotHit()
+        public void ShotHit(Characters TheMerchant, Characters Alien)
         {
-        //TODO
+            Alien.Health -= TheMerchant.AttackLvl;
         }
         public void ShotMiss()
         {

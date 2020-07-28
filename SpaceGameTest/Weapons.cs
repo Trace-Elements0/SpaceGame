@@ -8,30 +8,8 @@ namespace ClassLibrary
 {
     public class Weapons
     {
-        public WeaponTypes WeaponType { get; set; }
-        
-        public int HitPoints
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public int Range
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public int Rank
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        public WeaponTypes WeaponType { get; set; }        
+        public int Range { get; set; }
+        public int Rank { get; set; }
     }
 }

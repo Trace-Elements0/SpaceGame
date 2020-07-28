@@ -7,6 +7,6 @@ namespace ClassLibrary
 {
     public class Planets
     {      
-
+       string[] planets = { "Mars", "Jupiter", "Saturn", "Venus" }
     }
 }

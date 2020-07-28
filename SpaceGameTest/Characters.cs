@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using static ClassLibrary.Enumerations;
 
 namespace ClassLibrary
 {
@@ -13,7 +14,7 @@ namespace ClassLibrary
         public int AttackLvl;
         public float Loot;
         public string[] Products;
-  
+        public Enumerations Weapons;
 
         public void Defend()
         {

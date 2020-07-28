@@ -10,33 +10,30 @@ namespace SpaceGameTest
 
     class Program
     {
-
         static void Main(string[] args)
-        {
-
+        {            
+            StoryLine Story = new StoryLine();
+            Weapons musket = new Weapons();
             var theMerchant = new TheMerchant
             {
-
                 Health = 100,
-                Name = "Bryan",
                 DefenseLvl = 100,
                 AttackLvl = 60,
                 Loot = 0,
-
+                WeaponTypes = Sword,
             };
 
+            theMerchant.Weapons.Add(musket);
+            musket.WeaponType = WeaponTypes.Musket;
+            
         }
-
     }
-
 }
-           // TheMerchant player = new TheMerchant();
-           // Weapons musket = new Weapons();
-           // StoryLine Story = new StoryLine();
-           // musket.WeaponType = WeaponTypes.Musket; 
-           //                 player.Weapons.Add(musket);
 
+        //Alien.Health = ShotHit(TheMerchant, Alien);
+        //{
 
+        //{
 
            // string a = null;
            // Story.Prologue();
