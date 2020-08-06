@@ -5,9 +5,9 @@ using System.Linq;
 using System.Runtime.ConstrainedExecution;
 using System.Text;
 
-namespace ClassLibrary
+namespace SpaceGameTest
 {
-    public class TheMerchant : Characters
+    public class MainCharacter : Characters
     {
         
     }

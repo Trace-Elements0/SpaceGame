@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ClassLibrary
+namespace SpaceGameTest
 {
     public class Actions
     {
@@ -20,9 +20,11 @@ namespace ClassLibrary
             //else
             //    Alien.Die();
         }
-        public void AttackMerchent()
+        public void Bargain()
         {
-            //TODO
+            //Ask alien if he would like to bargain.
+            //if he would then trade.
+            //if not then fight for it.
         }
         public void Buy()
         {
