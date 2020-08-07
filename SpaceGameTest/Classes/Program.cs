@@ -10,8 +10,6 @@ namespace SpaceGameTest
     {
         static void Main(string[] args)
         {
-
-
             StoryLine Story = new StoryLine();
             MainCharacter Cadet = new MainCharacter();
             {
@@ -22,11 +20,11 @@ namespace SpaceGameTest
                 Cadet.CharacterType = Characters.CharacterTypes.Hero;
             }
             Story.Start();
-            Actions.Pause();
+            
             Story.ChapterOnePartOne();
-            Actions.Pause();
+           
             Story.FirstMissionBrief();
-            Actions.Pause();
+           
 
             Console.WriteLine("Before you go, pick a weapon.\n");
             Console.WriteLine("These will be your weapon options, choose one to carry with you :\n");
@@ -41,21 +39,26 @@ namespace SpaceGameTest
             {
                 case 1:
                     Cadet.Weapon = Characters.WeaponTypes.Musket;
-                    Console.WriteLine($"\n\tNice choice! A {Cadet.Weapon}");
+                    Console.WriteLine($"\nNice choice! A {Cadet.Weapon}");
+                    //ASCII ART
                     break;
                 case 2:
                     Cadet.Weapon = Characters.WeaponTypes.Sword;
-                    Console.WriteLine($"\n\tNice choice! A {Cadet.Weapon}");
+                    Console.WriteLine($"\nNice choice! A {Cadet.Weapon}");
+                    //ASCII ART
                     break;
                 case 3:
                     Cadet.Weapon = Characters.WeaponTypes.Blunderbuss;
-                    Console.WriteLine($"\n\tNice choice! A {Cadet.Weapon}");
+                    Console.WriteLine($"\nNice choice! A {Cadet.Weapon}");
+                    //ASCII ART
                     break;
                 case 4:
                     Cadet.Weapon = Characters.WeaponTypes.Dukes;
-                    Console.WriteLine($"\n\tNice choice! Your {Cadet.Weapon}");
+                    Console.WriteLine($"\nNice choice! Your {Cadet.Weapon}");
+                    //ASCII ART
                     break;
             }
+            Alien saturnAlien = new Alien();
             Actions a = new Actions();
             a.Fight(Cadet, saturnAlien);
         }

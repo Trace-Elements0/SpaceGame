@@ -27,11 +27,11 @@ namespace SpaceGameTest
                 if (defender.Health !<= 0)
                     continue;
 
-                int hitpoints2nd = rando.Next(25, 1000);
-                attacker.Health -= hitpoints;
+                int hitpoints2nd = rando.Next(25, 100);
+                attacker.Health -= hitpoints2nd;
 
                 Console.WriteLine($"{attacker.Name} was damaged and lost {hitpoints} health and now has {attacker.Health} health.");
-            } while (attacker.Health > 0 && defender.Health> 0);
+            } while (attacker.Health > 0 && defender.Health > 0);
 
             Console.WriteLine(attacker.Health > defender.Health ? $"{attacker.Name} wins!" : $"{defender.Name} wins!");
         }
