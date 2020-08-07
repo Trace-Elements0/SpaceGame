@@ -14,7 +14,6 @@ namespace SpaceGameTest
             Random rando = new Random();
             do
             {
-                Console.BackgroundColor =ConsoleColor.DarkRed;
                 Console.WriteLine($"{attacker.Name} launches an attack!");
 
                 Thread.Sleep(3000);
@@ -35,7 +34,6 @@ namespace SpaceGameTest
             } while (attacker.Health > 0 && defender.Health> 0);
 
             Console.WriteLine(attacker.Health > defender.Health ? $"{attacker.Name} wins!" : $"{defender.Name} wins!");
-            Console.ResetColor();
         }
 
         public static void Bargain()
@@ -47,7 +45,6 @@ namespace SpaceGameTest
 
         public static void Pause()
         {
-            Console.Clear();
             Console.WriteLine("\nPress any continue to continue...");
             Console.ReadKey(true);
         }
