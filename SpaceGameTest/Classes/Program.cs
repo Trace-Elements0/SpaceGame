@@ -14,24 +14,24 @@ namespace SpaceGameTest
 
 
             StoryLine Story = new StoryLine();
-
             MainCharacter Cadet = new MainCharacter();
             {
                 Cadet.Name = "Cadet";
                 Cadet.Health = 100;
                 Cadet.Loot = 0;
-                Cadet.Experience = 0;
-                Cadet.Products = Products.Food;
+                Cadet.Product = Characters.ProductTypes.Food;
+                Cadet.CharacterType = Characters.CharacterTypes.Hero;
             }
             Story.Start();
-            Console.Read();
+            Actions.Pause();
             Story.ChapterOnePartOne();
-            Console.Read();
+            Actions.Pause();
             Story.FirstMissionBrief();
+            Actions.Pause();
 
             Console.WriteLine("Before you go, pick a weapon.\n");
             Console.WriteLine("These will be your weapon options, choose one to carry with you :\n");
-            for (Weapons w = Weapons.Musket; w <= Weapons.Dukes; w++)
+            for (Characters.WeaponTypes w = Characters.WeaponTypes.Musket; w <= Characters.WeaponTypes.Dukes; w++)
             {
                 Console.WriteLine($"Option {(int)w} is {w}");
                 //string value = w.ToString();
@@ -42,26 +42,30 @@ namespace SpaceGameTest
             switch (selection)
             {
                 case 1:
-                    Cadet.Weapons = Weapons.Musket;
-                    Console.WriteLine($"\n\tNice choice! A {Cadet.Weapons}");
+                    Cadet.Weapon = Characters.WeaponTypes.Musket;
+                    Console.WriteLine($"\n\tNice choice! A {Cadet.Weapon}");
                     break;
                 case 2:
-                    Cadet.Weapons = Weapons.Sword;
-                    Console.WriteLine($"\n\tNice choice! A {Cadet.Weapons}");
+                    Cadet.Weapon = Characters.WeaponTypes.Musket;
+                    Console.WriteLine($"\n\tNice choice! A {Cadet.Weapon}");
                     break;
                 case 3:
-                    Cadet.Weapons = Weapons.Blunderbuss;
-                    Console.WriteLine($"\n\tNice choice! A {Cadet.Weapons}");
+                    Cadet.Weapon = Characters.WeaponTypes.Musket;
+                    Console.WriteLine($"\n\tNice choice! A {Cadet.Weapon}");
                     break;
                 case 4:
-                    Cadet.Weapons = Weapons.Dukes;
-                    Console.WriteLine($"\n\tNice choice! Your {Cadet.Weapons}");
+                    Cadet.Weapon = Characters.WeaponTypes.Musket;
+                    Console.WriteLine($"\n\tNice choice! Your {Cadet.Weapon}");
                     break;
             }
             Console.Clear();
-            Console.Write(Cadet);
 
-            
+            Actions a = new Actions();
+            a.Fight(Cadet, Cadet);
+
+
+
+
 
 
 

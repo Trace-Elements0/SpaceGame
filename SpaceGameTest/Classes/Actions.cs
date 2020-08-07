@@ -2,50 +2,76 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
+using System.Threading.Channels;
 
 namespace SpaceGameTest
 {
     public class Actions
     {
-        public void Attack()
+        public void Fight(Characters attacker, Characters defender)
         {
-        //TODO
+            Random rando = new Random();
+            do
+            {
+                Console.BackgroundColor =ConsoleColor.DarkRed;
+                Console.WriteLine($"{attacker.Name} launches an attack!");
+
+                Thread.Sleep(3000);
+
+                int hitpoints = rando.Next(25, 100);
+
+                defender.Health -= hitpoints;
+
+                Console.WriteLine($"{defender.Name} was damaged and lost {hitpoints} health and now has {defender.Health}.");
+                Thread.Sleep(3000);
+                if (defender.Health !<= 0)
+                    continue;
+
+                int hitpoints2nd = rando.Next(25, 1000);
+                attacker.Health -= hitpoints;
+
+                Console.WriteLine($"{attacker.Name} was damaged and lost {hitpoints} health and now has {attacker.Health} health.");
+            } while (attacker.Health > 0 && defender.Health> 0);
+
+            Console.WriteLine(attacker.Health > defender.Health ? $"{attacker.Name} wins!" : $"{defender.Name} wins!");
+            Console.ResetColor();
         }
-        public void AttackAlien(/*Characters TheMerchant, Characters Alien*/)
+
+        public static void Bargain()
         {
-            //Console.WriteLine("The Merchant lands a heavy hit on the alien.");
-            //Alien.health -= TheMerchant.Attack;
-            //while (Alien.health != 0)
-            //    Console.WriteLine("The Alien lives to fight another day");
-            //else
-            //    Alien.Die();
+            Random rando = new Random();
+            int choice = rando.Next(1, 2);
+
         }
-        public void Bargain()
+
+        public static void Pause()
         {
-            //Ask alien if he would like to bargain.
-            //if he would then trade.
-            //if not then fight for it.
+            Console.Clear();
+            Console.WriteLine("\nPress any continue to continue...");
+            Console.ReadKey(true);
         }
-        public void Buy()
-        {
-            //TODO
-        }
+
         public void Defend()
         {
 
         }
+
         public void Die()
         {
             //TODO:
         }
+
         public void Sell()
         {
             //TODO
         }
+
         public void Restart()
         {
 
         }
+
         public void MerchantCelebration()
         {
 

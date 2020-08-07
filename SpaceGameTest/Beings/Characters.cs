@@ -11,15 +11,69 @@ namespace SpaceGameTest
     public class Characters
     {
         //getsets auotmap the properties
-        //Health is a read only property so that it cannot be assigned a
-        //different value. It starts at 100 for any character in the game
+        
         public string Name { get; set; }
         public int Health { get; set; }
         public int Loot { get; set; }
-        public int? Experience { get; set; }
-        public Products Products { get; set; }
-        public Weapons Weapons { get; set; }
+        public ProductTypes Product { get; set; }
+        public WeaponTypes Weapon { get; set; }
+        public CharacterTypes CharacterType { get; set; }
+
+        public Characters()
+        {
+
+        }
+
+        public Characters(string name, int health, int loot, ProductTypes products, WeaponTypes weapons, CharacterTypes charactertype)
+        {
+            Name = name;
+            Health = health;
+            Loot = loot;
+            Product = products;
+            Weapon = weapons;
+            CharacterType = charactertype;
+        }
+
+        public string StatusUpdate()
+        {
+            string result = Name + "Health: " + Health + "Loot:\n" + Loot;
+            return result;
+        }
+
+        public override string ToString()
+        {
+            string result = "Name: " + Name +
+                            "\nHealth: " + Health +
+                            "\nLoot: " + Loot +
+                            "\nProducts:" + Product.ToString() +
+                            "\nWeapons: " + Weapon.ToString();
+            return result;
+        }
+
+        public enum ProductTypes : short
+        {
+            Ore,
+            Kit,
+            Petroleum,
+            Fuel,
+            Hydrogen,
+            Food,
+            Aluminum
+        }
+
+        public enum WeaponTypes
+        {
+            Musket = 1,
+            Sword,
+            Blunderbuss,
+            Dukes
+        }
+
+        public enum CharacterTypes
+        {
+            Hero, Alien
+        }
+
+       
     }
-    public enum Products : short { Ore, Kit, Petroleum, Fuel, Hydrogen, Food, Aluminum }
-    public enum Weapons { Musket = 1, Sword, Blunderbuss, Dukes }
 }
