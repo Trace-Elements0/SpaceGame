@@ -40,22 +40,57 @@ namespace SpaceGameTest
                 case 1:
                     Cadet.Weapon = Characters.WeaponTypes.Musket;
                     Console.WriteLine($"\nNice choice! A {Cadet.Weapon}");
-                    //ASCII ART
+                    Console.WriteLine(@",  /\  .  
+                                       //`-||-'\\ 
+                                      (| -=||=- |)
+                                       \\,-||-.// 
+                                        `  ||  '  
+                                           ||     
+                                           ||     
+                                           ||     
+                                           ||     
+                                           ||     
+                                           ()");
                     break;
                 case 2:
                     Cadet.Weapon = Characters.WeaponTypes.Sword;
                     Console.WriteLine($"\nNice choice! A {Cadet.Weapon}");
-                    //ASCII ART
+                    Console.WriteLine(@"       |______________
+                                        [======|______________>
+                                               |
+                                               '");
                     break;
                 case 3:
                     Cadet.Weapon = Characters.WeaponTypes.Blunderbuss;
                     Console.WriteLine($"\nNice choice! A {Cadet.Weapon}");
-                    //ASCII ART
+                    Console.WriteLine(@"  (
+                                            \
+                                             )
+                                       ##-------->        
+                                             )
+                                            /
+                                           (");
                     break;
                 case 4:
                     Cadet.Weapon = Characters.WeaponTypes.Dukes;
                     Console.WriteLine($"\nNice choice! Your {Cadet.Weapon}");
-                    //ASCII ART
+                    Console.WriteLine(@"   /\
+                                          //\\
+                                         //  \\
+                                     ^   \\  //   ^
+                                    / \   )  (   / \
+                                    ) (   )  (   ) (
+                                    \  \_/ /\ \_/  /
+                                     \__  _)(_  __/
+                                       \ \  / /
+                                        ) \/ (
+                                        | /\ |
+                                        | )( |
+                                        | )( |
+                                        | \/ |
+                                        )____(
+                                       /      \
+                                       \______/ ");
                     break;
             }
             Alien saturnAlien = new Alien();

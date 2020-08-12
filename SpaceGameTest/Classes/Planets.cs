@@ -11,7 +11,7 @@ namespace SpaceGameTest
         {
             Alien saturnAlien = new Alien();
             {
-                saturnAlien.Name = "Zoidburg";
+                saturnAlien.Name = "Centaur";
                 saturnAlien.Health = 100;
                 saturnAlien.Loot = 75;
                 saturnAlien.Product = Characters.ProductTypes.Hydrogen;
@@ -23,7 +23,7 @@ namespace SpaceGameTest
         {
             Alien marsAlien = new Alien();
             {
-                marsAlien.Name = "Fred";
+                marsAlien.Name = "Devil";
                 marsAlien.Health = 100;
                 marsAlien.Loot = 65;
                 marsAlien.Product = Characters.ProductTypes.Ore;
@@ -35,7 +35,7 @@ namespace SpaceGameTest
         {
             Alien venusAlien = new Alien();
             {
-                venusAlien.Name = "Bert";
+                venusAlien.Name = "Gyphon";
                 venusAlien.Health = 100;
                 venusAlien.Loot = 60;
                 venusAlien.Product = Characters.ProductTypes.Petroleum;
@@ -47,11 +47,24 @@ namespace SpaceGameTest
         {
             Alien jupiterAlien = new Alien();
             {
-                jupiterAlien.Name = "Ernie";
+                jupiterAlien.Name = "Cyclops";
                 jupiterAlien.Health = 100;
                 jupiterAlien.Loot = 75;
                 jupiterAlien.Product = Characters.ProductTypes.Aluminum;
                 jupiterAlien.CharacterType = Characters.CharacterTypes.Alien;
+            }
+        }
+
+        void Pluto()
+        {
+            Alien plutoAlien = new Alien();
+            {
+                plutoAlien.Name = "Dragon";
+                plutoAlien.Health = 100;
+                plutoAlien.Loot = 75;
+                plutoAlien.Product = Characters.ProductTypes.Aluminum;
+                plutoAlien.CharacterType = Characters.CharacterTypes.Alien;
+
             }
         }
     }
